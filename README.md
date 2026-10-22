@@ -1,15 +1,23 @@
-# pCloud Drive Homebrew Tap
+# mk-imagine's Homebrew Tap
 
-This tap contains pCloud Drive, which was rejected as an official homebrew formula because it were deemed too difficult to maintain, so this tap will be maintained by me personally.
+Casks and formulae I maintain for Homebrew.
 
-Tap this repo:
 ```bash
-brew tap mk-imagine/repo
+brew tap mk-imagine/tap
 ```
 
-## Program(s)
+## Casks
 
-pCloud Drive v4.3.3 UNIVERSAL
-```bash
-brew install --cask pcloud-drive
-```
+| Cask | Install |
+|------|---------|
+| [pcloud-drive](Casks/pcloud-drive.rb) | `brew install --cask mk-imagine/tap/pcloud-drive` |
+
+pCloud Drive was declined as an official Homebrew cask because it was judged too hard to maintain, so I maintain it here.
+
+## Formulae
+
+None yet.
+
+## Moved from `mk-imagine/repo`
+
+This tap replaces [mk-imagine/homebrew-repo](https://github.com/mk-imagine/homebrew-repo), which is archived. If you still have `mk-imagine/repo` tapped, `brew update` will move `pcloud-drive` here for you.
